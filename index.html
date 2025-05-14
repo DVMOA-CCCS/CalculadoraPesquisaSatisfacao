@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora - Pesquisas de Satisfação</title>
+    <link rel="stylesheet" href="calcPS.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Calculadora - Pesquisas de Satisfação </h1>
+        <h1>(Fiscalização de contratos)</h1>
+    <div id="valores" class="quadro">
+        <h2>Cálculo de amostragem</h2>
+        
+        <p>Informe o número de atendimentos no quadrimestre</p>
+            <input id="atendimentos" type="number" step="1" min="0" required/> <br><br>
+        
+        <button id="botaoAmostra" onclick="calcularAmostra()"> Calcular amostra</button>
+        <p>Quantidade mínima de pesquisas de satisfação:  <span id="amostra"></span></p>
+        
+         <br><br>               
+         <p> Para mais informações sobre o cáclulo de amostragem, consultar o <a href="ApendiceXXX.pdf" target="_blank">Apêndice XXX</a></p>
+    
+    </div>
+    
+</div>
+<div class="rodape">
+    <p>DVMOA/CCCS/DGS/SESA</p>
+    <p>contato: caai.dgs@gmail.com</p>
+</div>
+
+  
+    <script src="calcPS.js"></script>
+</body>
+</html>
