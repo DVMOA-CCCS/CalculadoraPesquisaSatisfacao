@@ -9,18 +9,20 @@
 <body>
     <div class="container">
     <h1>Calculadora - Pesquisas de Satisfação </h1>
-        <h1>(Fiscalização de contratos)</h1>
+        <h1 style="color: red;">(para uso excusivo na avaliação do Qualicis)</h1>
     <div id="valores" class="quadro">
         <h2>Cálculo de amostragem</h2>
         
-        <p>Informe o número de atendimentos no quadrimestre</p>
+        <p>Informe o número de atendimentos no semestre</p>
             <input id="atendimentos" type="number" step="1" min="0" required/> <br><br>
         
         <button id="botaoAmostra" onclick="calcularAmostra()"> Calcular amostra</button>
         <p>Quantidade mínima de pesquisas de satisfação:  <span id="amostra"></span></p>
         
          <br><br>               
-         <p> Para mais informações sobre o cáclulo de amostragem, consultar o <a href="ApendiceC.pdf" target="_blank">Apêndice C</a></p>
+        <p> Parâmetros: <br>
+            Nível de confiança: 95% <br>
+            Margem de erro: 5%</p>
     
     </div>
     

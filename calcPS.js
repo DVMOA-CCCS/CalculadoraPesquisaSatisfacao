@@ -10,7 +10,7 @@ function calcularAmostra() {
       const z = 1.96;
       const p = 0.5;
       const q = 1 - p;
-      const e = N <= 500 ? 0.10 : 0.05;
+      const e = 0.05;
 
       // Cálculo
       const numerador = N * Math.pow(z, 2) * p * q;
