@@ -14,7 +14,7 @@
         <h2>Cálculo de amostragem</h2>
         
         <p>Informe o número de atendimentos no quadrimestre</p>
-            <input id="atendimentos" type="number" step="1" min="0" required/> <br><br>
+            <input id="atendimentos" type="number" step="1" min="0" onkeypress="return event.charCode >= 48 && event.charCode <= 57" required/> <br><br>
         
         <button id="botaoAmostra" onclick="calcularAmostra()"> Calcular amostra</button>
         <p>Quantidade mínima de pesquisas de satisfação:  <span id="amostra"></span></p>
@@ -28,6 +28,7 @@
 <div class="rodape">
     <p>DVMOA/CCCS/DCR/SESA</p>
     <p>contato: dvmoa.fiscalizacao@sesa.pr.gov.br</p>
+    <p style="color: white;">atualizado em 08/06/2026</p>
 </div>
 
   
